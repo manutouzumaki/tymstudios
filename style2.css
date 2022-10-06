@@ -1,0 +1,92 @@
+@font-face {
+    font-family: fira_font;
+    src: url(./fonts/FiraCode-Regular.ttf);
+}
+  
+  :root {
+    --red_color:    #eb5e55;
+    --purple_color: #7f7caf;
+    --green_color:  #cdffdc;
+    --black_color:  #353535;
+    --light_green:  #fcffd9;
+}
+
+
+body {
+    background-color: var(--black_color);
+    margin: 0;
+    font-family: fira_font;
+}
+
+header {
+    width:100%;
+    height: 80px;
+    color: var(--green_color);
+    border-bottom: 2px solid var(--green_color);
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: o;
+    
+  }
+  
+footer{
+    width:100%;
+    height: 40px;
+    color: var(--green_color);
+    text-align: center;
+    border-top: 2px solid var(--green_color);
+    margin: 0;
+    padding-top: 20px;
+    overflow: hidden;
+
+
+}
+a {
+    text-decoration: none;
+    color: var(--green_color);
+}
+.headerImage {
+    width: 8%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.headerItem {
+    text-align: center;
+    width: 23%;
+    float: left;
+    position: relative;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    color: var(--green_color);
+}
+
+.floatLeft {
+    overflow: hidden;
+}
+
+pre {
+    border-radius: 10px;
+    font-size: larger;
+    background-color: var(--light_green);
+    color: var(--black_color);
+    float: left;
+    position: relative;
+    width: 80%;
+    height: auto;
+    font-weight: bold;
+    overflow:scroll;
+    overflow-y: hidden;
+}
+
+.imgClass {
+    float: left;
+    position: relative;
+    width: 20%;
+    height: auto;
+}

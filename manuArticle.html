@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+
+<body>
+    <header>
+        <a href="./users/tomascabrerizo.html">
+        <p class="headerItem">Tomas Cabrerizo</p>
+        </a>
+        <a href="./users/manuelcabrerizo.html">
+        <p class="headerItem">Manuel Cabrerizo</p>
+        </a>
+        <a href="./index.html">
+            <img class="headerImage" src="./img/tym.png" alt="logo">
+            </a>
+        <p class="headerItem">About Us</p>
+        <p class="headerItem">FAQ</p>
+    </header>
+    <div class="container">
+        <h2>TyM Article</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt modi maxime,
+            nesciunt soluta tenetur laboriosam corporis totam et perspiciatis! Aliquam
+            in reprehenderit repellendus minus tempora ratione, suscipit doloribus! Ratione, ea?
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt modi maxime,
+            nesciunt soluta tenetur laboriosam corporis totam et perspiciatis! Aliquam
+            in reprehenderit repellendus minus tempora ratione, suscipit doloribus! Ratione, ea?
+        </p>
+        <div class="floatLeft">
+        <pre><code>
+    vec3 SolveBarycentric(vec2 a, vec2 b, vec2 c, vec2 p) {
+        vec2 v0 = b - a;
+        vec2 v1 = c - a;
+        vec2 v2 = p - a;
+        f32 d00 = dot(v0, v0);
+        f32 d10 = dot(v1, v0);
+        f32 d11 = dot(v1, v1);
+        f32 d20 = dot(v2, v0);
+        f32 d21 = dot(v2, v1);
+        f32 denom = d00 * d11 - d10 * d10;
+        vec3 result; 
+        result.y = (d20 * d11 - d10 * d21) / denom;
+        result.z = (d00 * d21 - d20 * d10) / denom;
+        result.x = 1.0f - result.y - result.z;
+        return result;
+    }
+        </code></pre>
+        <img class="imgClass" width="100px" height="100px" src="img/test.png" alt="test image">
+        </div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt modi maxime,
+            nesciunt soluta tenetur laboriosam corporis totam et perspiciatis! Aliquam
+            in reprehenderit repellendus minus tempora ratione, suscipit doloribus! Ratione, ea?
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt modi maxime,
+            nesciunt soluta tenetur laboriosam corporis totam et perspiciatis! Aliquam
+            in reprehenderit repellendus minus tempora ratione, suscipit doloribus! Ratione, ea?
+        </p>
+    </div>
+    <footer>Powered by tymstudios 2022</footer>
+</body>
+
+
+</html>

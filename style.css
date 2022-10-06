@@ -1,0 +1,58 @@
+@font-face {
+  font-family: fira_font;
+  src: url(./fonts/FiraCode-Regular.ttf);
+}
+
+:root {
+  --red_color:    #eb5e55;
+  --purple_color: #7f7caf;
+  --green_color:  #97d8b2;
+  --black_color:  #1e2d2f;
+  --light_green:  #f1fec6;
+}
+
+
+.main {
+  background-color: var(--black_color);
+  color: var(--green_color);
+  margin: auto;
+  width: 60%;
+  font-family: fira_font;
+}
+
+.container {
+  overflow: hidden;
+  padding: 10px;
+}
+
+.left {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.code {
+  background-color: var(--green_color);
+  color: var(--black_color);
+  border-radius: 10px;
+
+  overflow:scroll;
+
+  width: 100%;
+}
+
+.img {
+  width: 60%;
+  height: auto;
+  margin: 24px;
+}
+
+.text {
+  text-align: justify;
+}
